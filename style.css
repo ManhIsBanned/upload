@@ -82,7 +82,6 @@ body{
 .container button{
     
     background: var(--primaty-color);
-    background-color: #ffffff55;
     color: white;
     border: 2px solid #f89b29;
     margin-bottom: 15px;
