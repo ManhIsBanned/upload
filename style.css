@@ -97,7 +97,7 @@ body{
 }
 
 .container button:hover {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     background: linear-gradient(90deg, hsla(52, 82%, 52%, 1) 0%, hsla(1, 92%, 47%, 1) 100%);
 
     
