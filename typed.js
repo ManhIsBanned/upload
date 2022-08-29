@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Yo, my name is Mạnh! ", "6/4/200...", "Friend: Chú Bé Đi Lạc#4837", "Contact me in below"];
+const textArray = ["Yo, my name is Mạnh! ", "6/4/200...🤨", "Friend: Chú Bé Đi Lạc#4837", "Contact me in below"];
 const typingDelay = 100;
 const erasingDelay = 40;
 const newTextDelay = 1000; // Delay between current and next text
