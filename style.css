@@ -111,8 +111,8 @@ body{
 
 .container button:hover {
     font-size: 15px;
-    transition: 0.3s;
-    color: whitesmoke;
+    transition: 0.2s;
+    color: white;
     background: rgba(245, 245, 245, 0.423);
 
     
