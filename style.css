@@ -21,6 +21,7 @@ body{
     backdrop-filter: blur(5px);
     border: 2px solid #f89b29;
     margin: 15px;
+    overflow: hidden;
 }
 .container img {
     width: 200px;
