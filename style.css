@@ -111,7 +111,6 @@ body{
 }
 
 .container button:hover {
-    font-size: 15px;
     transform: translateY(-4px) translate(-4px);
     color: white;
     background: rgba(24transform: translateY(-4px) translate(-4px);5, 245, 245, 0.423);
