@@ -22,6 +22,7 @@ body{
     border-radius: 10px;
     backdrop-filter: blur(5px);
     border: 2px solid whitesmoke;
+    overflow: hidden;
     margin-top: 10px;
     padding: 10px;
 }
