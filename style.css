@@ -9,7 +9,6 @@ body{
     background-size: cover;
     overflow: hidden;
     position: relative;
-    overflow: hidden;
 }
 .container {
     min-width: 300px;
