@@ -4,7 +4,6 @@
     margin:0;
     padding: 0;
 
-}
 body{
     width: 100%;
     height: 100vh;
@@ -12,9 +11,17 @@ body{
     background-size: cover;
     overflow: hidden;
     position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
 }
-
-    
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--primaty-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  
+}  
 .container {
     min-width: 300px;
     width: 400px;
