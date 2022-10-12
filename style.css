@@ -11,6 +11,7 @@ body{
     height: 100vh;
     background-image: url(bg.jpg);
     overflow: hidden;
+    overflow-x: scroll;
     overflow-y: scroll;
     display: flex;
     justify-content: center;
