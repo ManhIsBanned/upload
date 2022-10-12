@@ -7,14 +7,12 @@
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(bg.jpg);
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-    overflow: hidden;
-    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 ::-webkit-scrollbar {
   width: 10px;
