@@ -265,7 +265,7 @@ header .navbar ul li a:hover{
   font-size: 2rem;
   color: #eee;
   padding: 1rem 0;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .contact .row .content .info a i{
