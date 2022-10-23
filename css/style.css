@@ -2,6 +2,16 @@
 
 :root{
     --yellow:#f9ca24;
+    --white: rgb(255, 255, 255);
+    --whiteddd: rgb(211, 211, 211);;
+    --whitefff: #fff;
+    --whiteeee: #eee;
+    --black444: #444;
+    --black333: #333;
+    --black222: #222;
+    --black111: #111;
+    --black1a1a1a: #1a1a1a;
+    --black: rgb(0, 0, 0);
 }
 
 *{
@@ -13,11 +23,13 @@
     text-transform: capitalize;
     transition: all .2s linear;
     scroll-behavior: smooth;
+    transition: .2s;
 }
+
 
 *::selection{
     background:var(--yellow);
-    color:#333;
+    color:var(--black333);
 }
 
 html{
@@ -30,19 +42,31 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#222;
-    border-radius: 10px;
+    background:var(--black222);
 }
 
 html::-webkit-scrollbar-thumb{
     background:var(--yellow);
-    border-radius: 10px;
 }
 
 body{
-    background:#111;
+    background:var(--black111);
     overflow-x: hidden;
     padding-left: 35rem;
+}
+
+body.active{
+  --yellow:#777;
+  --white: rgb(0, 0, 0);
+  --whiteddd: #999;
+  --whitefff: #1a1a1a;
+  --whiteeee: #111;
+  --black444: #eee;
+  --black333: #eee;
+  --black222: #fff;
+  --black111: #eee;
+  --black1a1a1a: #fff;
+  --black: rgb(255, 255, 255);
 }
 
 section{
@@ -52,17 +76,21 @@ section{
 
 .btn{
   padding: .7rem 3rem;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--black333);
+  color: var(--whitefff);
   cursor: pointer;
   margin-top: 1rem;
   font-size: 2rem;
   border-radius: 5rem;
+  box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
 }
 
 .btn i{
   padding: 0 .5rem;
   font-size: 1.8rem;
+  
 }
 
 .btn:hover{
@@ -74,8 +102,9 @@ section{
   margin: 0 6rem;
   font-size: 4rem;
   padding: 1rem;
-  border-bottom:  .1rem solid #fff4;
-  color: #fff;
+  border-bottom:  .1rem solid var(--whitefff);
+  color: var(--whitefff);
+  
 }
 
 .heading span{
@@ -89,7 +118,7 @@ header{
   z-index: 1000;
   height:100%;
   width:35rem;
-  background:#1a1a1a;
+  background: var(--black1a1a1a);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,26 +127,32 @@ header{
 }
 
 header .user img{
-  height: 17rem;
-  width: 17rem;
+  height: 17.5rem;
+  width: 17.5rem;
   border-radius: 50%;
   object-fit: cover;
+  background-size: cover;
   margin-bottom: 1rem;
   border:  .7rem solid var(--yellow);
+  box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
 }
 
 header .user .name {
   font-size: 3.5rem;
-  color:  #fff;
+  color:  var(--whitefff);
+  
 }
 
 header .user .post{
   font-size:  2rem;
-  color: #eee;
+  color: var(--whiteeee);
 }
 
 header .navbar{
   width: 100%;
+  
 }
 
 header .navbar ul{
@@ -129,10 +164,13 @@ header .navbar ul li a{
   display: block;
   padding: 1rem;
   margin: 1.5rem;
-  background : #333;
-  color: #fff;
+  background : var(--black333);
+  color: var(--whitefff);
   font-size: 2rem;
   border-radius: 5rem;
+  box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
 }
 
 header .navbar ul li a:hover{
@@ -142,23 +180,27 @@ header .navbar ul li a:hover{
 #menu-bars{
   position: fixed;
   top:2rem; right:2rem;
-  background:#333;
-  color:#fff;
+  background:var(--black333);
+  color:var(--whitefff);
   cursor: pointer;
   font-size: 2.5rem;
   padding:1rem 1.5rem;
   z-index: 1000;
   border-radius: 10px;
   display: none;
+  box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
 }
 
 
 .menu-btn{
   position: absolute;
-  color: rgb(0, 0, 0);
+  color: var(--black);
   font-size: 35px;
   margin: 25px;
   cursor: pointer;
+  
  }
 
 
@@ -171,12 +213,12 @@ header .navbar ul li a:hover{
 
 .home h3{
   font-size: 2.5rem;
-  color:#fff;
+  color:var(--whitefff);
 }
 
 .home h1{
   font-size:5rem;
-  color:#fff;
+  color:var(--whitefff);
 }
 .home h1 span{
   color: var(--yellow);
@@ -184,7 +226,7 @@ header .navbar ul li a:hover{
 
 .home p{
   font-size: 2rem;
-  color: #eee;
+  color: var(--whiteeee);
 }
 
 .about .row{
@@ -210,7 +252,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info h3 span{
-  color: #eee;
+  color: var(--whiteeee);
   padding: 0.5rem;
 }
 
@@ -237,11 +279,15 @@ header .navbar ul li a:hover{
 .contact .row form .box{
   padding: 1.5rem;
   margin: 1rem 0;
-  background-color: #3333;
-  color: #fff;
+  background-color: var(--black333);
+  color: var(--whitefff);
   text-transform: none;
   font-size: 1.7rem;
   width: 100%;
+  box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+border-radius: 2rem;
 }
 
 .contact .row form .box::placeholder{
@@ -255,7 +301,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .title{
   text-transform: uppercase;
-  color: #fff;
+  color: var(--whitefff);
   font-size: 3rem;
   padding-bottom: 2rem;
 }
@@ -264,7 +310,7 @@ header .navbar ul li a:hover{
   display: flex;
   align-items: center;
   font-size: 2rem;
-  color: #eee;
+  color: var(--whiteeee);
   padding: 1rem 0;
 }
 
@@ -277,7 +323,7 @@ header .navbar ul li a:hover{
   display: flex;
   align-items: center;
   font-size: 2rem;
-  color: #eee;
+  color: var(--whiteeee);
   padding: 1rem 0;
   font-weight: bold;
 }
@@ -289,7 +335,7 @@ header .navbar ul li a:hover{
 
 .top{
   font-size: 50px;
-  color: #fff;
+  color: var(--whiteeee);
   position: fixed;
   bottom: 7.5rem; right: 2rem;
   z-index: 100;
@@ -300,6 +346,7 @@ header .navbar ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
+    padding-top: 5rem ;
 }
 
 .portfolio .box-container .box{
@@ -307,9 +354,9 @@ header .navbar ul li a:hover{
     height:25rem;
     position: relative;
     overflow:hidden;
-    border:1rem solid #fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    background:#eee;
+    border:1rem solid var(--whiteddd);
+    box-shadow: 0 .5rem 1rem var(--black333);
+    background:var(--whiteddd);
     border-radius: .5rem;
 }
 
@@ -331,7 +378,7 @@ header .navbar ul li a:hover{
     position: absolute;
     bottom:.5rem; left:1rem;
     font-size: 2.5rem;
-    color:#333;
+    color:var(--black333);
     text-transform: uppercase;
 }
 
@@ -345,8 +392,8 @@ header .navbar ul li a:hover{
     height:4rem;
     width:4rem;
     border-radius: .5rem;
-    background: #eee;
-    color:#333;
+    background: var(--whiteeee);
+    color:var(--black333);
     font-size: 1.7rem;
     line-height: 4rem;
     text-align: center;
@@ -355,8 +402,40 @@ header .navbar ul li a:hover{
 
 .portfolio .box-container .box .icons a:hover{
     background:var(--main-color);
-    color:#fff;
+    color:var(--whitefff);
 }
+
+#theme-toggler{
+  height: 44px;
+  width: 44px;
+  line-height: 43px;
+  border-radius: 50%;
+  background-color: var(--black333);
+  color: var(--whiteeee);
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  cursor: pointer;
+  top: 15px;
+  left: 25px;
+  box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+}
+
+
+#theme-toggler.fa-sun{
+  transform: rotate(360deg);
+  background-color: var(--black333);
+  color: var(--white);
+  cursor: pointer;
+  box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+}
+
+
+
 
 
 
@@ -397,10 +476,6 @@ header .navbar ul li a:hover{
 
   header{
       width:100%;
-  }
-
-  .experience .box-container .box{
-      padding-right: 0;
   }
 
 }

@@ -1,5 +1,18 @@
 let menu = document.querySelector('#menu-bars');
 let header = document.querySelector('header');
+let themeToggler = document.querySelector('#theme-toggler');
+
+themeToggler.onclick = () =>{
+    themeToggler.classList.toggle('fa-sun');
+    if(themeToggler.classList.contains('fa-sun')){
+        document.body.classList.add('active');
+    }else{
+        document.body.classList.remove('active');
+    }
+}
+
+
+
 
 menu.onclick = () =>{
     menu.classList.toggle('fa-times');
@@ -11,15 +24,7 @@ window.onscroll = () =>{
     header.classList.remove('active');
 }
 
-let cursor1 = document.querySelector('.cursor-1');
-let cursor2 = document.querySelector('.cursor-2');
 
-window.onmousemove = (e) =>{
-    cursor1.style.top = e.pageY + 'px';
-    cursor1.style.left = e.pageX + 'px';
-    cursor2.style.top = e.pageY + 'px';
-    cursor2.style.left = e.pageX + 'px';
-}
 
 document.querySelectorAll('a').forEach(links =>{
 
