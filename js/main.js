@@ -1,4 +1,4 @@
-alert("NL :3")
+
 let menu = document.querySelector('#menu-bars');
 let header = document.querySelector('header');
 let themeToggler = document.querySelector('#theme-toggler');
