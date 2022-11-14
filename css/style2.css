@@ -34,12 +34,66 @@ h1{
     animation:  back 20s linear infinite;
 }
 
+.btn{
+    width: 12rem;
+    height: 4rem;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    color: white;
+    background: #333;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-radius: 5rem;
+    padding: 1rem ;
+}
+
+.btn i{
+    font-size: 1.5rem;
+    
+}
+
+.btn:hover{
+    background: #f9ca24;
+}
+
 @keyframes back{
     100% {
         background-position: 2000px 0;
 
     }
 }
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    
+    body{
+        padding: 0;
+    }
+  
+    #menu-bars{
+        display: initial;
+    }
+  
+    header{
+        left:-120%;
+    }
+  
+    header.active{
+        left:0%;
+    }
+  
+    .cursor-1,
+    .cursor-2{
+        display: none;
+    }
+  
+  }
 
 @media (max-width:450px){
 
