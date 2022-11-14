@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   text-decoration: none;
+   outline: none; border:none;
+   text-transform: capitalize;
+   transition: all .2s linear;
+   scroll-behavior: smooth;
+   transition: .2s;
+}
+
+body{
+    background: #111;
+}
+
+.hero{
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+  
+h1{
+    font-size: 60px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffea00;
+    background: url(/pictures/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:  back 20s linear infinite;
+}
+
+@keyframes back{
+    100% {
+        background-position: 2000px 0;
+
+    }
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+  
+    header{
+        width:100%;
+    }
+  
+  }
