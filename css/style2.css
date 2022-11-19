@@ -34,6 +34,16 @@ h1{
     animation:  back 20s linear infinite;
 }
 
+h2{
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffea00;
+    background: url(/pictures/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:  back 20s linear infinite;
+}
+
 .btn{
     width: 12rem;
     height: 3rem;
@@ -69,7 +79,7 @@ h1{
 @media (max-width:991px){
 
     html{
-        font-size: 55%;
+        font-size: 90%;
     }
     
     body{
@@ -98,7 +108,7 @@ h1{
 @media (max-width:450px){
 
     html{
-        font-size: 50%;
+        font-size: 70%;
     }
   
     header{
