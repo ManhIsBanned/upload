@@ -57,7 +57,7 @@ body{
 }
 
 body.active{
-  --yellow:#666;
+  --yellow:#eee;
   --white: rgb(0, 0, 0);
   --whiteddd: #999;
   --whitefff: #1a1a1a;
