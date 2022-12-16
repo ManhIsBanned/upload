@@ -229,6 +229,7 @@ header .navbar ul li a:hover{
 .home p{
   font-size: 2rem;
   color: var(--whiteeee);
+  font-weight: bold;
 }
 
 .about .row{
