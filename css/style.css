@@ -57,6 +57,10 @@ body{
     padding-left: 35rem;
 }
 
+.troioi span{
+    color: #111
+}
+
 body.active{
   --yellow: #666;
   --white: rgb(0, 0, 0);
