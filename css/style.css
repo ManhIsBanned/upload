@@ -316,7 +316,7 @@ header .navbar ul li a:hover{
   padding: 1rem 0;
   font-weight: normal;
   text-decoration: underline ;
-
+  font-weight: bold;
 }
 
 .about .row .info h3 span{
