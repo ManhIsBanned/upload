@@ -144,7 +144,7 @@ section{
   cursor: pointer;
   margin-top: 1rem;
   font-size: 20px;
-  border-radius: 5rem;
+  border-radius: 40px;
   box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
@@ -495,7 +495,7 @@ border-radius: 2rem;
 #theme-toggler{
   /* height: 44px;
   width: 44px; */
-  border-radius: 10px;
+  border-radius: 40px;
   background-color: var(--black333);
   color: var(--whiteeee);
   font-size: 2rem;
@@ -509,7 +509,14 @@ border-radius: 2rem;
   -webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
 }
-
+#home {
+  position: fixed;
+  cursor: pointer;
+  bottom: 70px;
+  box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 3px 22px 0px rgba(0,0,0,0.75);
+}
 
 .team{
 	position: relative;
