@@ -114,8 +114,8 @@ body{
 }
 
 .btn{
-    width: 8rem;
-    height: 4rem;
+    width: 12rem;
+    height: 6rem;
     top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
