@@ -495,7 +495,7 @@ border-radius: 2rem;
 #theme-toggler{
 /*   height: 8rem;
   width: 4rem; */
-  border-radius: 40px;
+/*   border-radius: 40px; */
   background-color: var(--black333);
   color: var(--whiteeee);
   font-size: 2rem;
