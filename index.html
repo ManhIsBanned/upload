@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- css file link -->
     <link rel="stylesheet" href="css/style.css">
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -17,11 +18,16 @@
     <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <!-- header start -->
     <header>
-        <div id="theme-toggler" class="fas fa-circle-half-stroke"></div>
+        <div id="theme-toggler">
+            <a type="button"
+            data-theme-toggle
+            aria-label="Change to light theme">
+            </a>
+        </div>
         <div class="user">
-            <img src="pictures/anh3.png" alt="">
-            <h3 class="name">NgDucManh</h3>
-            <p class="post">new age new me</p>
+            <img src="pictures/anh3.png" alt
+            <h3 class="ten">NgDucManh</h3>
+            <p class="post">DoiTaoNhuCC</p>
         </div>
         
         <nav class="navbar">
@@ -40,9 +46,6 @@
 
     <!-- home start -->
     <section class="home" id="home">
-        <div class="troioi">
-            <span> scroll bar bị làm sao í =)) </span>
-        </div>
         <h3>HI THERE!</h3>
         <h1>My name's <span>Mạnh</span></h1>
         <p></p>
@@ -58,10 +61,9 @@
             <div class="info">
                 <h3> <span>Full name : </span> Nguyễn Đức Mạnh </h3>
                 <h3> <span>Birthday : </span> 6/4/2009 </h3>
-                <h3> <span>Hobbies : </span> i dont know </h3>
-                <h3> <span>Post : </span> PhaiDoCap3! </h3>
+                <h3> <span>Friends : </span> <a  href="friends.html" > Click here! </a></h3>
+                <h3> <span>Post : </span> uocdcchet </h3>
                 <h3> <span>Language : </span> Vietnamese </h3>
-
             </div>
 
         </div>
@@ -72,67 +74,66 @@
     <!-- project st -->
     <section class="portfolio" id="projects">
 
-        <h1 class="heading"> <span> Some </span> fav songs </h1>
+        <h1 class="heading"> <span> fav </span> songs </h1>
     
         <div class="box-container">
+            <div class="box">
+                <img src="pictures/img-1.jpg" alt="">
+                <h3> Nhắn nhủ </h3>
+                <div class="icons">
+                    <a href="https://open.spotify.com/track/2uZmeuNAxSm7XfVIwLkhCx" class="fa-brands fa-spotify"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.youtube.com/watch?v=vfKiaXKO44M" class="fa-brands fa-youtube"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.google.com/search?q=nh%E1%BA%AFn+nh%E1%BB%A7" class="fas fa-search"target="_blank" rel="noopener noreferrer"></a>
+                </div>
+            </div>
     
             <div class="box">
                 <img src="pictures/img-1.jpg" alt="">
-                <h3> Project 01 </h3>
+                <h3> Nhắn nhủ </h3>
                 <div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="secret.html" class="fas fa-search"></a>
+                    <a href="https://open.spotify.com/track/2uZmeuNAxSm7XfVIwLkhCx" class="fa-brands fa-spotify"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.youtube.com/watch?v=vfKiaXKO44M" class="fa-brands fa-youtube"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.google.com/search?q=nh%E1%BA%AFn+nh%E1%BB%A7" class="fas fa-search"target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
     
             <div class="box">
-                <img src="pictures/img-2.gif" alt="">
-                <h3> Project 02 </h3>
+                <img src="pictures/img-1.jpg" alt="">
+                <h3> Nhắn nhủ </h3>
                 <div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
+                    <a href="https://open.spotify.com/track/2uZmeuNAxSm7XfVIwLkhCx" class="fa-brands fa-spotify"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.youtube.com/watch?v=vfKiaXKO44M" class="fa-brands fa-youtube"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.google.com/search?q=nh%E1%BA%AFn+nh%E1%BB%A7" class="fas fa-search"target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
     
             <div class="box">
-                <img src="pictures/img-3.jpg" alt="">
-                <h3> Project 03 </h3>
+                <img src="pictures/img-1.jpg" alt="">
+                <h3> Nhắn nhủ </h3>
                 <div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
+                    <a href="https://open.spotify.com/track/2uZmeuNAxSm7XfVIwLkhCx" class="fa-brands fa-spotify"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.youtube.com/watch?v=vfKiaXKO44M" class="fa-brands fa-youtube"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.google.com/search?q=nh%E1%BA%AFn+nh%E1%BB%A7" class="fas fa-search"target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
     
             <div class="box">
-                <img src="pictures/img-4.gif" alt="">
-                <h3> Project 04 </h3>
+                <img src="pictures/img-1.jpg" alt="">
+                <h3> Nhắn nhủ </h3>
                 <div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
+                    <a href="https://open.spotify.com/track/2uZmeuNAxSm7XfVIwLkhCx" class="fa-brands fa-spotify"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.youtube.com/watch?v=vfKiaXKO44M" class="fa-brands fa-youtube"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.google.com/search?q=nh%E1%BA%AFn+nh%E1%BB%A7" class="fas fa-search"target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
     
             <div class="box">
-                <img src="pictures/img-5.jpg" alt="">
-                <h3> Project 05 </h3>
+                <img src="pictures/img-1.jpg" alt="">
+                <h3> Nhắn nhủ </h3>
                 <div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="pictures/img-6.jpg" alt="">
-                <h3> Project 06 </h3>
-                <div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
+                    <a href="https://open.spotify.com/track/2uZmeuNAxSm7XfVIwLkhCx" class="fa-brands fa-spotify"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.youtube.com/watch?v=vfKiaXKO44M" class="fa-brands fa-youtube"target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://www.google.com/search?q=nh%E1%BA%AFn+nh%E1%BB%A7" class="fas fa-search"target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
     
@@ -152,9 +153,9 @@
 
                 <div class="info">
                     <h3><i class='bx bxs-envelope' ></i> manhduc060407@gmail.com </h3>
-                    <a href="https://discord.com/"><i class='bx bxl-discord-alt'></i> Manh#6049 </a>
-                    <a href="https://www.facebook.com/dcmanh649/"> <i class='bx bxl-facebook-circle' ></i> Đức Mạnh </a>
-                    <a href="https://github.com/ManhIsBanned"> <i class='bx bxl-github' ></i> ManhIsBanned </a>
+                    <a href="https://discord.com/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-discord-alt'></i> Manh#6049 </a>
+                    <a href="https://www.facebook.com/dcmanh649/"target="_blank" rel="noopener noreferrer"> <i class='bx bxl-facebook-circle' ></i> Đức Mạnh </a>
+                    <a href="https://github.com/ManhIsBanned"target="_blank" rel="noopener noreferrer"> <i class='bx bxl-github' ></i> ManhIsBanned </a>
                     <h3><i class='fas fa-map-marked-alt'> </i> Việt Hùng, Đông Anh, Hà Nội </h3>
 
                 </div>
@@ -174,7 +175,6 @@
 
     </section>
     <!-- contact end -->
-
     <script src="js/main.js"></script>
 </body>
 </html>
