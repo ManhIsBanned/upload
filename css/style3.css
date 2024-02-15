@@ -493,8 +493,8 @@ border-radius: 2rem;
 }
 
 #theme-toggler{
-/*   height: 8rem;
-  width: 4rem; */
+  /* height: 44px;
+  width: 44px; */
   border-radius: 10px;
   background-color: var(--black333);
   color: var(--whiteeee);
